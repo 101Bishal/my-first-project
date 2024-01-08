@@ -77,6 +77,13 @@ margin-top: 48px;
     height: 600px;
     width: 1320px;
     color: #070211;
+    margin: 140px;
+}
+.group{
+display: flex;
+flex-direction: column;
+justify-content: right;
+p
 }
 .welcome{
     color: white;
