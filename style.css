@@ -79,12 +79,24 @@ margin-top: 48px;
     color: #070211;
     margin: 140px;
 }
-.group{
-display: flex;
-flex-direction: column;
-justify-content: right;
-p
+.tow-four{
+  display: flex;
+  width: 319.83px;
+  height: 464.662px;
+  text-align: right;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  margin-left: 862px;
+  margin-bottom: 60px;
 }
+.group{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: right;
+  margin-left: 860px;
+  }
 .welcome{
     color: white;
     font-family: 'Merriweather';
@@ -97,12 +109,12 @@ p
     flex-direction: column;
 }
 .dolos{
-    color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.80);
 font-family: 'Inter' sans-serif;
 font-size: 18px;
 font-weight: 400;
-line-height: 30px;
 margin-top: 24px;
+text-align: left;
 }
 .join{
     color: #FFF;
@@ -112,4 +124,136 @@ font-size: 20px;
 font-weight: 700;
 padding-left: 158px;
 margin-top: 48px;
+}
+.place-date{
+font-family: 'Inter';
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+width: 1320px;
+height: 482px;
+background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+text-align: center;
+padding-top: 100px;
+}
+.tow-four{
+display: flex;
+width: 319.83px;
+height: 464.662px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.place{
+  color: #F00;
+  font-family: 'Inter';
+}
+.date{
+  color: #F00;
+  font-family: 'Inter';
+}
+.time{
+  color: #F00;
+  font-family: 'Inter';
+}
+.join-now{
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #FFF;
+ text-align: center;
+ font-family: 'Inter';
+ font-size: 20px;
+ font-weight: 700;
+ text-transform: uppercase;
+ border-radius: 8px;
+ background: #F00;
+ margin-top: 45px;
+}
+.gift{
+  text-align: left;
+}
+.best{
+color: #F00;
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 500;
+}
+.awesome{
+color: #070211;
+font-family: 'Merriweather' , serif;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.pera{
+color: rgba(7, 2, 17, 0.60);
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.images{
+  justify-content:center ;
+  align-items:center ;
+  display: inline-table;
+  flex-direction: column-reverse;
+  padding-left: 140px ;
+  padding-right: 140px ;
+}
+.esub{
+  text-align: center;
+  width: 1320px;
+height: 616px;
+border-radius: 16px ;
+background: (rgba(255, 0, 0, 0.05););
+}
+.Subscribe{
+  color: #070211;
+text-align: center;
+font-family: 'Merriweather';
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.abc{
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.gmail{
+  width: 648px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+color: rgba(7, 2, 17, 0.30);
+text-align: left;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+}
+.sub{
+  width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 600;
+text-transform: capitalize;
+margin-top: 40px;
+}
+.logo{
+  width: 150px;
+height: 150px;
+margin-top: 80px;
 }
