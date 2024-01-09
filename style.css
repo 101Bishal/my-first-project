@@ -199,7 +199,8 @@ line-height: 32px;
 .images{
   justify-content:center ;
   align-items:center ;
-  display: inline-table;
+  display: inline;
+  flex-direction:grid;
   flex-direction: column-reverse;
   padding-left: 140px ;
   padding-right: 140px ;
@@ -209,7 +210,8 @@ line-height: 32px;
   width: 1320px;
 height: 616px;
 border-radius: 16px ;
-background: (rgba(255, 0, 0, 0.05););
+background: rgba(255, 0, 0, 0.05);
+margin-top: 120px;
 }
 .Subscribe{
   color: #070211;
@@ -256,4 +258,45 @@ margin-top: 40px;
   width: 150px;
 height: 150px;
 margin-top: 80px;
+}
+.address{
+  display: flex;
+  background: #070211;
+  width: 1600px;
+height: 609px;
+gap: 200px;
+margin-top: 120px;
+}
+.big{
+  color: #FFF;
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+margin-left: 140px;
+padding-top: 120px;
+}
+.web{
+  color: #FFF;
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+margin-right: 291px;
+padding-top: 120px;
+}
+.fitl{
+display: flex;
+flex-direction: row;
+width: 64px;
+height: 64px;
+align-items: center;
+margin-top: 295px;
+padding-right: 800px;
+}
+.unsub{
+  color: #FFF;
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 500;
 }
